@@ -5,7 +5,7 @@ import "firebase/compat/messaging";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyB4AizQm5pmnP1GozUJqHlKE3Zp5H9MfpI",
+  apiKey: "YOUR_API_KEY",
   authDomain: "orderprocessingsystem.firebaseapp.com",
   projectId: "orderprocessingsystem",
   storageBucket: "orderprocessingsystem.appspot.com",
