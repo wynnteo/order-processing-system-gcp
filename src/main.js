@@ -6,7 +6,7 @@ navigator.serviceWorker.register('/firebase-messaging-sw.js')
   .then((registration) => {
     console.log('Service Worker registered:', registration);
     console.log(messaging)
-    messaging.getToken({ vapidKey: 'YOUR_PUBLIC_VAPID' })
+    messaging.getToken({ vapidKey: 'BHFNmQF_e3nlGDA1_rSp6RffQhnXoOcJpr41rw3Yk_W38BaygBWaB2T4FmqAqGCf6oNWz605Adr16_9pPhKkwJY' })
       .then((currentToken) => {
         if (currentToken) {
           console.log('Firebase Token:', currentToken);
