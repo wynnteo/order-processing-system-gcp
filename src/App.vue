@@ -1,17 +1,22 @@
+<!-- src/App.vue -->
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <h1>Order Processing System</h1>
+    <OrderForm />
+    <OrderStatus />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import OrderForm from './components/OrderForm.vue';
+import OrderStatus from './components/OrderStatus.vue';
 
 export default {
-  name: 'App',
   components: {
-    HelloWorld
+    OrderForm,
+    OrderStatus
   }
-}
+};
 </script>
 
 <style>
