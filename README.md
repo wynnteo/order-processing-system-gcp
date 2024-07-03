@@ -10,4 +10,4 @@ In this tutorial, we’ll extend our system by integrating a client user interfa
 ```
 npm run serve
 ```
-[Read More]([https://cli.vuejs.org/config/](http://wynntech.me/index.php/2024/06/20/integrating-vue-js-with-serverless-order-processing-system/)).
+[Read More](http://wynntech.me/index.php/2024/06/20/integrating-vue-js-with-serverless-order-processing-system/)
